@@ -11,27 +11,38 @@ asset bundle.js 1.4 MiB [emitted] (name: main)
 asset index.html 1.92 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
 modules by path ./node_modules/ 1.24 MiB 31 modules
-modules by path ./src/ 15.9 KiB
+modules by path ./src/ 18.8 KiB
   modules by path ./src/*.css 9.97 KiB 4 modules
-  modules by path ./src/*.js 5.92 KiB
+  modules by path ./src/*.js 8.83 KiB
     ./src/index.js 530 bytes [built] [code generated]
-    ./src/App.js 5.4 KiB [built] [code generated]
+    + 2 modules
 modules by path ./.ve/ 15.1 KiB
-  modules by path ./.ve/*.js 10.6 KiB 2 modules
+  modules by path ./.ve/*.js 10.6 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built] [code generated]
+    ./.ve/SidePanel.js 7.93 KiB [built] [code generated]
   modules by path ./.ve/*.css 2.93 KiB
     ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 2201 ms
+webpack 5.99.9 compiled successfully in 2324 ms
 assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.42 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.d1e17fe11bd376698427.hot-update.js 13.1 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.d1e17fe11bd376698427.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.42 MiB = bundle.js 1.4 MiB main.d1e17fe11bd376698427.hot-update.js 13.1 KiB
-cached modules 1.26 MiB [cached] 41 modules
+assets by path *.js 1.45 MiB
+  asset bundle.js 1.42 MiB [emitted] (name: main)
+  asset main.73acfcaf9f8ace392e6e.hot-update.js 26.8 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.73acfcaf9f8ace392e6e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.45 MiB = bundle.js 1.42 MiB main.73acfcaf9f8ace392e6e.hot-update.js 26.8 KiB
+cached modules 1.27 MiB [cached] 42 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 8.31 KiB
-  ./src/App.js 4.94 KiB [built] [code generated]
-  ./src/Sidebar.js 3.37 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 645 ms
+javascript modules 10.4 KiB
+  ./src/App.js 3.89 KiB [built] [code generated]
+  ./src/components/ExposureDashboard.js 655 bytes [built] [code generated]
+  ./src/components/AIActionPlan.js 648 bytes [built] [code generated]
+  ./src/components/DigitalTwinScanner.js 654 bytes [built] [code generated]
+  ./src/components/AppRiskScanner.js 661 bytes [built] [code generated]
+  ./src/components/DarkWebLeakMonitor.js 656 bytes [built] [code generated]
+  ./src/components/SocialGraphRiskMap.js 663 bytes [built] [code generated]
+  ./src/components/DataDisintegrationScheduler.js 719 bytes [built] [code generated]
+  ./src/components/BadgeSystem.js 625 bytes [built] [code generated]
+  ./src/components/PrivacyManifestoGenerator.js 724 bytes [built] [code generated]
+  ./src/components/SettingsReports.js 648 bytes [built] [code generated]
+webpack 5.99.9 compiled successfully in 373 ms
